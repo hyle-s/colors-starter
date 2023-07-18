@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html, body {
+html,
+body {
   margin: 0px;
 }
 
@@ -36,6 +37,7 @@ header {
 #column-1 {
   background: #4f50b1
 }
+
 #column-2 {
   background: #1478a0
 }
@@ -72,13 +74,16 @@ footer {
 
   #column-3 {
     background-color: #2F4F4F;
-    
+
   }
 
   footer {
     background-color: #008B8B;
   }
-  
+
+  .col-3 {
+    width: 50%;
+  }
 }
 
 
@@ -103,5 +108,8 @@ footer {
   footer {
     background-color: #20B2AA;
   }
-   
+
+  .col {
+    width: 33.3%;
+  }
 }
